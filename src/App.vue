@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+    <InitiativeForm/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import InitiativeForm from './components/InitiativeForm'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    InitiativeForm
   }
 }
 </script>
