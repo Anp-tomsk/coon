@@ -1,7 +1,8 @@
 <template>
   <ul>
     <li v-for="coon in coons">
-      <div>
+      <!-- move it to external component -->
+      <div id="coon">
         <div>
           {{ coon.id }}
         </div>
@@ -61,5 +62,9 @@
 </script>
 
 <style scoped>
-
+  #coon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 </style>

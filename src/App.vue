@@ -3,7 +3,6 @@
     <img src="./assets/logo.png">
     <div id="coonsContainer">
       <CoonsList/>
-
     </div>
   </div>
 </template>
