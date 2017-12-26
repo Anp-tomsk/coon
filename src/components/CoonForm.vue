@@ -39,7 +39,7 @@
 
 <script>
   export default {
-    name: 'CoonForm',
+    name: 'coonForm',
     data () {
       return {
         coon: {

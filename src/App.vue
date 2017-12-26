@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <CoonsList/>
-    <CoonsForm/>
+    <div id="coonsContainer">
+      <CoonsList/>
+      <CoonForm/>
+    </div>
   </div>
 </template>
 
@@ -20,6 +22,12 @@ export default {
 </script>
 
 <style>
+#coonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
