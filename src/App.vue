@@ -3,20 +3,18 @@
     <img src="./assets/logo.png">
     <div id="coonsContainer">
       <CoonsList/>
-      <CoonForm/>
+
     </div>
   </div>
 </template>
 
 <script>
-import CoonForm from './components/CoonForm'
 import CoonsList from './components/CoonsList'
 
 export default {
   name: 'app',
   components: {
-    CoonsList,
-    CoonForm
+    CoonsList
   }
 }
 </script>
