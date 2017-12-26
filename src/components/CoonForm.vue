@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h2>Initiative form</h2>
+      <h2>Coon form</h2>
     </div>
     <div>
       <h3>Name</h3>
@@ -39,7 +39,7 @@
 
 <script>
   export default {
-    name: 'InitiativeForm',
+    name: 'CoonForm',
     data () {
       return {
         coon: {

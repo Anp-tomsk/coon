@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <InitiativeForm/>
+    <CoonsList/>
+    <CoonsForm/>
   </div>
 </template>
 
 <script>
-import InitiativeForm from './components/InitiativeForm'
+import CoonForm from './components/CoonForm'
+import CoonsList from './components/CoonsList'
 
 export default {
   name: 'app',
   components: {
-    InitiativeForm
+    CoonsList,
+    CoonForm
   }
 }
 </script>
